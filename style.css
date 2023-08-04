@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(235, 245, 248);
+}
+
+
+h1 {
+    background-color: #D2E4FD;  
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px dotted black;
+}
+
+
+.grid-container {
+    border: 5px double black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(16, 30px);
+    grid-template-rows: repeat(16, 30px);
+    gap: 0px;
+    margin-bottom: 30px;
+}
+
+.grid-boxes {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.buttonFunction {
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    border: 3px solid black;
+}
+
+
+#selectColor {
+    background-color: white;
+    color: black;
+}
+
+#clear {
+    background-color: #CDE9D6;
+    color: black;
+}
+
+#changeGrid16 {
+    background-color: #D2E4FD;
+    color: black;
+}
+
+#changeGrid20 {
+    background-color: #FFF1CB;
+    color: black;
+}
+
+#changeGrid30 {
+    background-color: #F8D3CF;
+    color: black;
+}
